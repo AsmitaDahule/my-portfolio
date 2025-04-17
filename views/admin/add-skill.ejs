@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include("../partials/head") %>
+  <title>Add Skill</title>
+</head>
+<body>
+  <h1>Add Skill</h1>
+  <form action="/admin/add-skill" method="POST">
+    <label>Skill Name:</label>
+    <input type="text" name="name" required><br>
+
+    <button type="submit">Add Skill</button>
+  </form>
+</body>
+</html>
